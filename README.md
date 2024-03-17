@@ -29,5 +29,7 @@
 
 # Nguồn tài liệu
 [Do tốc độ gió](https://hackaday.io/project/191652-long-range-weather-station-65/log/220690-weather-station-anemometer)
+&nbsp;
 [Do hướng gió](https://hackaday.io/project/191652-long-range-weather-station-65/log/220476-the-wind-direction-sensor)
+&#xA;
 [Do lượng mưa](https://hackaday.io/project/191652-long-range-weather-station-65/log/220475-the-rain-gauge)
