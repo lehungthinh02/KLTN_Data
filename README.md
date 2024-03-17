@@ -26,3 +26,8 @@
 | Điện áp nguồn                      | 2.0v đến 3.6v |
 | Dòng điện                          | 0.65 μA đến 5 μA  |
 | Giao tiếp                          | SPI, I2C, UART, USB-OTG, CAN, LIN  |
+
+# Nguồn tài liệu
+[Do tốc độ gió](https://hackaday.io/project/191652-long-range-weather-station-65/log/220690-weather-station-anemometer)
+[Do hướng gió](https://hackaday.io/project/191652-long-range-weather-station-65/log/220476-the-wind-direction-sensor)
+[Do lượng mưa](https://hackaday.io/project/191652-long-range-weather-station-65/log/220475-the-rain-gauge)
