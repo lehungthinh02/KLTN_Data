@@ -9,7 +9,8 @@
 | Cảm biến mưa (SG90/MG90S servo)      | 4.8v-6v       | -         | PWM                      |
 | Cảm biến mưa (loadcell 100g + HX711) | 2.6 ~ 5.5v    | -         | Pin_Clock, Pin_Data, ... |
 
-| NB-IOT (ME310G1) |                   |
-| Điện áp nguồn        |   3.8v        |
-| Dòng điện            |               |
-| Giao tiếp            | UART, SPI, LTE Cat-M1/Cat-NB1, DCS/PCS, GSM |
+| Module (NB-IOT ME310G1)  |                 | 
+|--------------------------|-----------------|
+| Điện áp nguồn            | 3.8v            |
+| Dòng điện                |                 |
+| Giao tiếp                | UART, SPI, LTE Cat-M1/Cat-NB1, DCS/PCS, GSM |
