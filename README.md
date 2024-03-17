@@ -1,9 +1,9 @@
 | Cảm biến                           | Điện áp nguồn | Dòng điện         | Giao tiếp                           |
 |------------------------------------|---------------|------------------|------------------------------------|
 | GPS (SL871)                        | 3.3v          | <10mA, <25 mA, <30 mA | UART (chính), I2C (phụ)           |
-| Nhiệt độ-độ ẩm (HPP845E034R5)     | 3.8v          | 0.65 mA          | I2C                                |
-| Áp suất (BM1383AGLV)              | 3.3v          | -                | I2C                                |
-| Cảm biến bụi (GP2Y1010AU0F)       | 5v            | 11 mA            | Analog                             |
+| Nhiệt độ-độ ẩm (HPP845E034R5)     | 3.8v           | 0.65 mA          | I2C                                |
+| Áp suất (BM1383AGLV)              | 3.3v           | -                | I2C                                |
+| Cảm biến bụi (GP2Y1010AU0F)       | 5v             | 11 mA            | Analog                             |
 | Cảm biến hướng gió (AS5600)        | 3.3v          | 1.5 mA           | I2C                                |
 | Cảm biến tốc độ gió (Hall A3144)   | 4.5v-24v      | -                | Analog                             |
 | Cảm biến mưa (SG90/MG90S servo)    | 4.8v-6v       | 2.7 mA - 70 mA   | PWM                                |
