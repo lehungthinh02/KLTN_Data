@@ -14,3 +14,9 @@
 | Điện áp nguồn            | 3.8v            |
 | Dòng điện                |                 |
 | Giao tiếp                | UART, SPI, LTE Cat-M1/Cat-NB1, DCS/PCS, GSM |
+
+| MCU(PIC32MM0256GPM064)   |                 | 
+|--------------------------|-----------------|
+| Điện áp nguồn            |  2.0v đến 3.6v  |
+| Dòng điện                |                 |
+| Giao tiếp                | SPI,I2C,UART,USB-OTG,CAN,LIN. |
