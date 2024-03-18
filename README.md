@@ -7,7 +7,8 @@
 | Cảm biến bụi (GP2Y1010AU0F)       | 5v            | 11 mA                  | Analog                             |
 | Cảm biến hướng gió (AS5600)       | 3.3v          | 1.5 mA                 | I2C                                |
 | Cảm biến tốc độ gió (Hall A3144)  | 4.5v-24v      | -                      | Analog                             |
-| Cảm biến từ trường đo lương mưa (HMC5883L)  | 2.16v -3.6v     | - 100μA                     I2C                             |
+| Cảm biến từ trường đo lương mưa (HMC5883L)  | 2.16v -3.6v     | - 100μA                I2C                             |
+
 &nbsp;
 
 | Module (NB-IOT ME310G1)            |               | 
@@ -27,4 +28,5 @@
 # Nguồn tài liệu
 [File 3D and bom list](https://www.thingiverse.com/thing:6439737)
 &nbsp;
-[Flowchart ](https://drive.google.com/file/d/1ryc8pZsVxH7QAcHd-9n73gmfeSE0fP-Y/view?usp=sharing)
+[Flowchart for edit ](https://drive.google.com/file/d/1ryc8pZsVxH7QAcHd-9n73gmfeSE0fP-Y/view?usp=sharing)
+![Flowchart](.D:\KLTN_Data\Flowchart\KLTN_Data Diagram2.png)
