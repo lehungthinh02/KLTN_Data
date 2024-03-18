@@ -30,4 +30,4 @@
 &nbsp;
 [Flowchart for edit ](https://drive.google.com/file/d/1ryc8pZsVxH7QAcHd-9n73gmfeSE0fP-Y/view?usp=sharing)
 &nbsp;
-![Flowchart](https://github.com/lehungthinh02/KLTN_Data/blob/main/Flowchart/KLTN_Data%20Diagram2.png)
+![Flowchart](https://github.com/lehungthinh02/KLTN_Data/blob/main/Flowchart/KLTN_Data%20Diagram.png)
