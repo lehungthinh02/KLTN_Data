@@ -30,4 +30,4 @@
 &nbsp;
 [Flowchart for edit ](https://drive.google.com/file/d/1ryc8pZsVxH7QAcHd-9n73gmfeSE0fP-Y/view?usp=sharing)
 &nbsp;
-![Flowchart](.D:\KLTN_Data\Flowchart\KLTN_Data Diagram2.png)
+![Flowchart](D:\KLTN_Data\Flowchart/KLTN_Data Diagram2.png)
