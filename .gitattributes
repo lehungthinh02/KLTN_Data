@@ -1,2 +1,25 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Maven 
+__Previews/
+History/
+build/
+dist/
+debug/
+Project Backups/
+*-backups/
+
+\#auto_saved_files\#
+!spec/\#auto_saved_files\#
+
+*.workspace
+!spec/*.workspace
+
+*.~(*).*
+!spec/*.~(*).*
+
+*.$*.*
+!spec/*.$*.*
+
+~*.lck
+!spec/~*.lck
