@@ -483,6 +483,10 @@
     [
       "fd09d7ab-1021-4d23-bdf6-fe3fe880322a",
       "SENSOR"
+    ],
+    [
+      "eaecef20-a78c-4e9c-adf0-70b64983ba1b",
+      "NB_IOT"
     ]
   ],
   "text_variables": {}
