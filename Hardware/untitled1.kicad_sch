@@ -1289,7 +1289,7 @@
       (symbol "W25Q64FVSSIG_1_1"
         (rectangle (start 80.645 -5.08) (end 98.425 -20.32)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type color) (color 0 0 0 0))
         )
       )
     )

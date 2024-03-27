@@ -1638,7 +1638,7 @@
     (fill (type none))
     (uuid 4875c498-9637-4cd4-8de3-822f3b1b3f67)
   )
-  (rectangle (start 122.555 13.97) (end 215.9 57.785)
+  (rectangle (start 122.555 12.7) (end 215.9 57.785)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 77298078-62fd-4ce8-a8c1-b6bb1b9f07eb)
