@@ -30,4 +30,4 @@
 &nbsp;
 ![Flowchart](https://github.com/lehungthinh02/KLTN_Data/blob/main/Flowchart/KLTN_DATA_DIAGRAM1.drawio.png)
 &nbsp;
-![Case](https://github.com/lehungthinh02/KLTN_Data/tree/main/Case%20of%20board)
+![Case of board](https://github.com/lehungthinh02/KLTN_Data/blob/main/Case%20of%20board/case.png)
