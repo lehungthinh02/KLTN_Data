@@ -31,7 +31,6 @@ Thông tin chi tiết về các cảm biến và module được sử dụng tro
 
 # Nguồn tài liệu
 
-Để tham khảo thêm, bạn có thể tìm hiểu tại các liên kết sau:
 
 - [File 3D và danh sách bom](https://www.thingiverse.com/thing:6439737)
 
