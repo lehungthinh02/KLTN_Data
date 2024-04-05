@@ -29,3 +29,5 @@
 [File 3D and bom list](https://www.thingiverse.com/thing:6439737)
 &nbsp;
 ![Flowchart](https://github.com/lehungthinh02/KLTN_Data/blob/main/Flowchart/KLTN_DATA_DIAGRAM1.drawio.png)
+&nbsp;
+![Case](https://github.com/lehungthinh02/KLTN_Data/tree/main/Case%20of%20board)
