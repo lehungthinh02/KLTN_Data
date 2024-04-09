@@ -620,6 +620,34 @@
 		)
 		(uuid 1e065a34-c375-4724-a147-ebceb91e7507)
 	)
+	(rectangle
+		(start 82.55 109.855)
+		(end 84.455 111.76)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 200 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 200 0 1)
+		)
+		(uuid 66a0674c-47ff-4ee4-afb3-88f60104b888)
+	)
+	(rectangle
+		(start 82.55 113.03)
+		(end 84.455 114.935)
+		(stroke
+			(width 0)
+			(type default)
+			(color 114 86 0 1)
+		)
+		(fill
+			(type color)
+			(color 114 86 0 1)
+		)
+		(uuid e64f4ef0-bf5b-40e1-8697-7401de12a29f)
+	)
 	(circle
 		(center 146.05 114.3)
 		(radius 0.635)
@@ -655,6 +683,16 @@
 		)
 		(uuid "15f6fc88-5cbe-4951-8e40-7fe3430e59f4")
 	)
+	(text "Digital signals"
+		(exclude_from_sim no)
+		(at 91.44 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "262b70b1-c608-4892-9fe6-0538b4f725db")
+	)
 	(text "Internal connections"
 		(exclude_from_sim no)
 		(at 204.47 61.595 90)
@@ -668,7 +706,7 @@
 	)
 	(text "3V3"
 		(exclude_from_sim no)
-		(at 148.844 112.268 0)
+		(at 149.225 112.395 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -679,7 +717,7 @@
 	)
 	(text "5V,\n3.8V,\n3V3"
 		(exclude_from_sim no)
-		(at 103.124 81.026 0)
+		(at 102.87 80.645 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -698,6 +736,16 @@
 			)
 		)
 		(uuid "ad90217f-4223-4c07-ace4-48a27b67471b")
+	)
+	(text "Analog signals"
+		(exclude_from_sim no)
+		(at 90.805 111.125 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "af203895-f9fd-4afe-ba03-0c4133c7e811")
 	)
 	(text "5V,\n3V3"
 		(exclude_from_sim no)

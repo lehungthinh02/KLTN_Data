@@ -1,4 +1,4 @@
-1116892436472330
+1137514817138356
 Liem
 CapSenRot3PCB
 
@@ -1551,8 +1551,8 @@ AH3G.303
 
 
 0
-0
-0
+6
+3
 SAMPI
 AT-1224
 
@@ -1659,6 +1659,20 @@ DFN75-4LD-PL-1
 4
 4
 SAMPI
+DIL04_2.54_MTHRA
+
+
+0
+4
+4
+SAMPI
+DIL10_1.27_MTH
+
+
+0
+10
+10
+SAMPI
 DO-214AB
 
 
@@ -1667,6 +1681,13 @@ DO-214AB
 2
 SAMPI
 DO-214AB_12
+
+
+0
+2
+2
+SAMPI
+DO-214AC
 
 
 0
@@ -1716,6 +1737,13 @@ FT0805
 2
 SAMPI
 FUSE0805
+
+
+0
+2
+2
+SAMPI
+FUSE1812
 
 
 0
@@ -1953,6 +1981,13 @@ RES2512
 2
 2
 SAMPI
+SCAP1320
+
+
+0
+2
+2
+SAMPI
 SHU2512
 
 
@@ -2107,6 +2142,13 @@ SW_PUSH_2DPDT
 6
 6
 SAMPI
+SW_SMD2_6.0x3.5
+
+
+0
+2
+2
+SAMPI
 TDFN8_2x3_MCHP
 
 
@@ -2155,6 +2197,13 @@ TO-220_12
 0
 2
 2
+SAMPI
+TP1MM
+
+
+0
+0
+0
 SAMPI
 TQFP64_10x10_MCHP
 
@@ -2212,6 +2261,13 @@ ToroidCoil-4015-24-S
 2
 2
 SAMPI
+U.FL
+
+
+0
+3
+3
+SAMPI
 USB4105
 
 
@@ -2232,6 +2288,13 @@ ZX60-B-5S(31)
 0
 9
 9
+Triet_KiCAD_Fprint
+8-PowerTDFN
+
+
+0
+10
+6
 Triet_KiCAD_Fprint
 115U-A103_SIM-Socket
 
@@ -2933,6 +2996,13 @@ MCP73123
 11
 11
 Triet_KiCAD_Fprint
+MIC2101_02
+QFN16 3x3x1.0
+
+0
+17
+17
+Triet_KiCAD_Fprint
 MIC2876
 
 
@@ -3367,6 +3437,13 @@ SW_4P_6x6
 0
 0
 Triet_KiCAD_Fprint
+Schottky Dual
+
+
+0
+3
+3
+Triet_KiCAD_Fprint
 Socket-4P-2.54-TH
 
 
@@ -3423,12 +3500,26 @@ TP
 1
 1
 Triet_KiCAD_Fprint
+TQ-RL-10P-TH
+TQ-RL-10P-T/H
+
+0
+10
+10
+Triet_KiCAD_Fprint
 TQFP-48P
 
 
 0
 48
 48
+Triet_KiCAD_Fprint
+TQFP-128-EP_14x14
+
+
+0
+129
+129
 Triet_KiCAD_Fprint
 TSMT8
 Dual Mosfet Nch
@@ -3486,6 +3577,13 @@ Uno Base_Prototype
 0
 0
 Triet_KiCAD_Fprint
+VH3.96-8Cell
+
+
+0
+9
+9
+Triet_KiCAD_Fprint
 VMD2-SOD723
 
 
@@ -3513,6 +3611,13 @@ VMT3
 0
 3
 3
+Triet_KiCAD_Fprint
+VQFN-16P
+
+
+0
+17
+17
 Triet_KiCAD_Fprint
 VQFN-48P
 

@@ -357,7 +357,7 @@
           "group_by": false,
           "label": "MFT",
           "name": "MFT",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -369,13 +369,13 @@
           "group_by": false,
           "label": "Stock Link",
           "name": "Stock Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

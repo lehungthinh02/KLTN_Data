@@ -5,28 +5,26 @@
 	(uuid "c8ebf02e-d529-4e49-81eb-f1e2bb915174")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SAMPI:BT"
+		(symbol "SAMPI:BT3"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "BT"
-				(at -3.175 1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.5 1.5)
+						(size 1.27 1.27)
 						(bold yes)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Button"
-				(at -3.175 -0.635 0)
+			(property "Value" "BT SMD2"
+				(at 0 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -56,10 +54,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BT_1_0"
+			(symbol "BT3_1_0"
 				(rectangle
-					(start -1.905 -2.54)
-					(end 1.905 -5.08)
+					(start -1.905 -3.81)
+					(end 1.905 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -69,7 +67,7 @@
 					)
 				)
 				(circle
-					(center -1.27 -3.81)
+					(center -1.27 -5.08)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -80,8 +78,8 @@
 					)
 				)
 				(rectangle
-					(start -0.381 -1.905)
-					(end 0.381 -3.175)
+					(start -0.381 -3.175)
+					(end 0.381 -4.445)
 					(stroke
 						(width 0)
 						(type default)
@@ -92,7 +90,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -3.81) (xy -1.905 -3.81)
+						(xy -1.27 -5.08) (xy -1.905 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -104,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -3.175) (xy 1.27 -3.175)
+						(xy -1.27 -4.445) (xy 1.27 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -116,7 +114,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy 1.905 -3.81)
+						(xy 1.27 -5.08) (xy 1.905 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -127,7 +125,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -3.81)
+					(center 1.27 -5.08)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -138,7 +136,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.175 -3.81 0)
+					(at -3.175 -5.08 0)
 					(length 1.27)
 					(name ""
 						(effects
@@ -156,7 +154,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.175 -3.81 180)
+					(at 3.175 -5.08 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -166,42 +164,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 -6.35 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -6.35 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1627,9 +1589,9 @@
 					)
 				)
 				(pin output line
-					(at 10.16 5.08 180)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "~{RESET}"
+					(name "DBG_TXD"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1645,9 +1607,9 @@
 					)
 				)
 				(pin output line
-					(at -10.16 -5.08 0)
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "USB_VBUS"
+					(name "PGC"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1663,9 +1625,9 @@
 					)
 				)
 				(pin output line
-					(at -10.16 5.08 0)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "DBG_TXD"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1673,24 +1635,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.143 1.143)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1708,7 +1652,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1716,17 +1660,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 0 180)
+				(pin input line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.143 1.143)
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1744,7 +1688,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1753,16 +1697,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "PGD/UPDI"
+					(name "GND"
 						(effects
 							(font
 								(size 1.143 1.143)
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -1780,6 +1724,24 @@
 							)
 						)
 					)
+					(number "7"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PGD/UPDI"
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
 					(number "8"
 						(effects
 							(font
@@ -1789,9 +1751,9 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -5.08 180)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "PGC"
+					(name "USB_VBUS"
 						(effects
 							(font
 								(size 1.143 1.143)
@@ -2391,22 +2353,10 @@
 		(uuid "2b671559-e57b-4ee2-82a0-a1d52b6f1364")
 	)
 	(junction
-		(at 215.265 155.575)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b7888e7-715f-42a3-9d2e-1529fa5dcf19")
-	)
-	(junction
 		(at 191.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c14e3e4-0f2d-4250-8772-5157bb376da1")
-	)
-	(junction
-		(at 189.865 155.575)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "435f8389-6e81-4fef-b613-0f302047b686")
 	)
 	(junction
 		(at 137.16 151.13)
@@ -2480,30 +2430,6 @@
 		(color 0 0 0 0)
 		(uuid "ffafd398-fef7-4582-bd83-82400331d689")
 	)
-	(no_connect
-		(at 165.1 83.82)
-		(uuid "207ec4a0-7d48-4b79-b6af-e757085378f1")
-	)
-	(no_connect
-		(at 104.14 127)
-		(uuid "5646d232-1129-47b6-80a6-f1445a730a3e")
-	)
-	(no_connect
-		(at 165.1 78.74)
-		(uuid "9c65b723-6f13-4f79-bfa6-6e20d9ad3b70")
-	)
-	(no_connect
-		(at 104.14 114.3)
-		(uuid "a9d17288-589d-4147-959e-27435b214672")
-	)
-	(no_connect
-		(at 165.1 86.36)
-		(uuid "d221f508-cffe-4a27-bdf3-ef690de7ff33")
-	)
-	(no_connect
-		(at 104.14 124.46)
-		(uuid "dfa8c43b-d2c2-4510-8a6c-be702c1e3ee4")
-	)
 	(wire
 		(pts
 			(xy 211.455 101.6) (xy 211.455 102.87)
@@ -2546,16 +2472,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.265 153.035) (xy 216.535 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15f62b70-4c12-4904-9833-2f1d9c1a979c")
-	)
-	(wire
-		(pts
 			(xy 156.21 148.59) (xy 156.21 149.86)
 		)
 		(stroke
@@ -2576,6 +2492,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.155 69.85) (xy 222.885 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a57de-9867-4721-bc9e-52a0fcc6a7f5")
+	)
+	(wire
+		(pts
 			(xy 137.16 157.48) (xy 137.16 156.21)
 		)
 		(stroke
@@ -2593,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "2c27c43b-7204-41d7-871b-4727a19cbe6d")
+	)
+	(wire
+		(pts
+			(xy 224.155 72.39) (xy 222.885 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb92488-6eb3-4a6b-922d-72e47958d951")
 	)
 	(wire
 		(pts
@@ -2706,16 +2642,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 155.575) (xy 191.135 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51223d5d-ec83-4273-b721-492a35082062")
-	)
-	(wire
-		(pts
 			(xy 137.16 153.67) (xy 137.16 151.13)
 		)
 		(stroke
@@ -2733,26 +2659,6 @@
 			(type default)
 		)
 		(uuid "53c9601e-4480-49e5-8bd8-d6a980d0c04a")
-	)
-	(wire
-		(pts
-			(xy 215.265 155.575) (xy 215.265 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56e5dbb8-6297-4b1f-bdaf-b43094eab556")
-	)
-	(wire
-		(pts
-			(xy 215.265 157.48) (xy 215.265 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fad5bc-3697-48ae-bd4c-a6649ef784db")
 	)
 	(wire
 		(pts
@@ -2806,16 +2712,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.265 155.575) (xy 216.535 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "809b32c8-4a08-47ad-891d-ed8d01a5ef1f")
-	)
-	(wire
-		(pts
 			(xy 165.1 127) (xy 173.99 127)
 		)
 		(stroke
@@ -2823,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "89f4a428-5a71-4950-be45-d314cf9d61bb")
+	)
+	(wire
+		(pts
+			(xy 224.155 62.23) (xy 222.885 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a82e0b8-cc94-48e8-b1e5-51680bc153d2")
 	)
 	(wire
 		(pts
@@ -2853,16 +2759,6 @@
 			(type default)
 		)
 		(uuid "95b5457a-50bc-417b-8fae-4f39718bea3b")
-	)
-	(wire
-		(pts
-			(xy 189.865 155.575) (xy 189.865 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d7a673-1177-4b00-a4ae-8fbe7c6acf29")
 	)
 	(wire
 		(pts
@@ -2946,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 153.035) (xy 191.135 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd69ffb2-f77a-4b2b-b92e-90e165d23a9f")
-	)
-	(wire
-		(pts
 			(xy 165.1 121.92) (xy 173.99 121.92)
 		)
 		(stroke
@@ -2983,16 +2869,6 @@
 			(type default)
 		)
 		(uuid "c34d2de0-36f7-41f4-8784-e852bf4ffddc")
-	)
-	(wire
-		(pts
-			(xy 189.865 157.48) (xy 189.865 155.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80f3a9a-5a79-4f54-8e66-c825d58dc8a5")
 	)
 	(wire
 		(pts
@@ -3106,7 +2982,7 @@
 	)
 	(hierarchical_label "NB_TXD"
 		(shape output)
-		(at 167.64 81.28 0)
+		(at 167.005 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3119,7 +2995,7 @@
 	)
 	(hierarchical_label "VBAT_SEN"
 		(shape input)
-		(at 167.64 63.5 0)
+		(at 167.005 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3133,7 +3009,7 @@
 	)
 	(hierarchical_label "DUST_SEN"
 		(shape input)
-		(at 102.87 66.04 180)
+		(at 102.235 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3147,7 +3023,7 @@
 	)
 	(hierarchical_label "SOSCI"
 		(shape passive)
-		(at 102.87 104.14 180)
+		(at 104.14 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3187,7 +3063,7 @@
 	)
 	(hierarchical_label "PGD"
 		(shape bidirectional)
-		(at 222.885 69.85 0)
+		(at 224.155 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3200,7 +3076,7 @@
 	)
 	(hierarchical_label "VNB_SEN"
 		(shape input)
-		(at 167.64 60.96 0)
+		(at 167.005 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3214,7 +3090,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 102.87 86.36 180)
+		(at 102.235 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,7 +3103,7 @@
 	)
 	(hierarchical_label "~{RNF_PULSE}"
 		(shape input)
-		(at 102.87 63.5 180)
+		(at 102.235 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3306,7 +3182,7 @@
 	)
 	(hierarchical_label "DBG_RXD"
 		(shape input)
-		(at 102.87 101.6 180)
+		(at 104.14 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3332,7 +3208,7 @@
 	)
 	(hierarchical_label "DBG_TXD"
 		(shape output)
-		(at 102.87 99.06 180)
+		(at 104.14 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3345,7 +3221,7 @@
 	)
 	(hierarchical_label "PGC"
 		(shape input)
-		(at 102.87 96.52 180)
+		(at 104.14 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3358,7 +3234,7 @@
 	)
 	(hierarchical_label "~{MCLR}"
 		(shape output)
-		(at 222.885 62.23 0)
+		(at 224.155 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3371,7 +3247,7 @@
 	)
 	(hierarchical_label "DUST_EN"
 		(shape output)
-		(at 102.87 88.9 180)
+		(at 102.235 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3384,7 +3260,7 @@
 	)
 	(hierarchical_label "~{WSP_PULSE}"
 		(shape input)
-		(at 102.87 60.96 180)
+		(at 102.235 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3410,7 +3286,7 @@
 	)
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
-		(at 102.87 116.84 180)
+		(at 104.14 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3423,7 +3299,7 @@
 	)
 	(hierarchical_label "NB_RXD"
 		(shape input)
-		(at 167.64 91.44 0)
+		(at 167.005 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3490,7 +3366,7 @@
 	)
 	(hierarchical_label "VBUS_SEN"
 		(shape input)
-		(at 102.87 106.68 180)
+		(at 104.14 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3504,7 +3380,7 @@
 	)
 	(hierarchical_label "SDO"
 		(shape output)
-		(at 102.87 78.74 180)
+		(at 102.235 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3517,7 +3393,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 102.87 119.38 180)
+		(at 104.14 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3530,7 +3406,7 @@
 	)
 	(hierarchical_label "PGD"
 		(shape bidirectional)
-		(at 102.87 93.98 180)
+		(at 104.14 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3543,7 +3419,7 @@
 	)
 	(hierarchical_label "~{VBAT_LOW}"
 		(shape input)
-		(at 167.64 66.04 0)
+		(at 167.005 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3569,7 +3445,7 @@
 	)
 	(hierarchical_label "NB_VAUX_SEN"
 		(shape input)
-		(at 167.64 71.12 0)
+		(at 167.005 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3583,7 +3459,7 @@
 	)
 	(hierarchical_label "LED_APP"
 		(shape output)
-		(at 167.64 76.2 0)
+		(at 167.005 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3596,7 +3472,7 @@
 	)
 	(hierarchical_label "VNB_EN"
 		(shape output)
-		(at 167.64 68.58 0)
+		(at 167.005 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3622,7 +3498,7 @@
 	)
 	(hierarchical_label "SOSCO"
 		(shape passive)
-		(at 102.87 71.12 180)
+		(at 104.14 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3636,7 +3512,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape output)
-		(at 102.87 81.28 180)
+		(at 102.235 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3689,7 +3565,7 @@
 	)
 	(hierarchical_label "~{MCLR}"
 		(shape input)
-		(at 167.64 96.52 0)
+		(at 165.1 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3702,7 +3578,7 @@
 	)
 	(hierarchical_label "NB_ONOFF"
 		(shape output)
-		(at 167.64 73.66 0)
+		(at 167.005 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3715,7 +3591,7 @@
 	)
 	(hierarchical_label "~{DUST_IREN}"
 		(shape output)
-		(at 102.87 68.58 180)
+		(at 102.235 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3728,7 +3604,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 102.87 76.2 180)
+		(at 102.235 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3741,7 +3617,7 @@
 	)
 	(hierarchical_label "~{FLASH_CS}"
 		(shape output)
-		(at 102.87 73.66 180)
+		(at 102.235 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3767,7 +3643,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 102.87 83.82 180)
+		(at 102.235 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3780,7 +3656,7 @@
 	)
 	(hierarchical_label "PGC"
 		(shape output)
-		(at 222.885 72.39 0)
+		(at 224.155 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3934,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:DIL10_1.27_MTH"
 			(at 213.995 80.01 0)
 			(effects
 				(font
@@ -4569,128 +4445,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:BT")
-		(at 197.485 154.305 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b4aa99a-33e4-4312-a620-38cb05075a84")
-		(property "Reference" "BT1"
-			(at 196.215 153.0349 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RESET"
-			(at 196.215 155.5749 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.022"
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Panasonic"
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "EVQ-PE105K"
-			(at 197.485 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4160ab81-0684-4731-aa7b-d40a25161c27")
-		)
-		(pin "1"
-			(uuid "7cd8fa3c-3cf8-4da4-a6b4-6dca019fbd8a")
-		)
-		(pin "3"
-			(uuid "e5f5840e-2bbd-474f-a8ca-80fcf45f745f")
-		)
-		(pin "4"
-			(uuid "c0504ec2-27ac-4b96-8c5c-e20d07255b9a")
-		)
-		(instances
-			(project "WeatherStation"
-				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 119.38 0)
 		(unit 1)
@@ -5202,6 +4956,113 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:BT3")
+		(at 224.155 154.305 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76436cff-aff6-4e71-981c-0c1314212c08")
+		(property "Reference" "BT2"
+			(at 222.25 153.0349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APP"
+			(at 222.25 155.575 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SAMPI:SW_SMD2_6.0x3.5"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Panasonic"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "EVQ-PE105K"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.022"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e37ad41d-6112-42b0-850d-8345bdb3bd3e")
+		)
+		(pin "2"
+			(uuid "0483d6ad-f63e-412c-96c6-a8478c22f73e")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SAMPI:CERCAP")
 		(at 158.75 152.4 270)
 		(unit 1)
@@ -5619,7 +5480,7 @@
 			)
 		)
 		(property "Value" "10K, 1%"
-			(at 199.39 144.78 90)
+			(at 198.755 144.78 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -5802,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" " Samsung"
+		(property "MFT" "Samsung"
 			(at 176.53 114.3 0)
 			(effects
 				(font
@@ -6218,7 +6079,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 240.665 147.32 90)
+			(at 238.125 147.32 90)
 			(effects
 				(font
 					(face "Consolas")
@@ -6910,128 +6771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:BT")
-		(at 222.885 154.305 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c539fc3e-ce42-433f-bc3a-7a5f572ac476")
-		(property "Reference" "BT2"
-			(at 221.615 153.0349 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "APP"
-			(at 221.615 155.5749 90)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.022"
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Panasonic"
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "EVQ-PE105K"
-			(at 222.885 154.305 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7fd7c2d2-ff4e-45a5-824a-dd786839c838")
-		)
-		(pin "1"
-			(uuid "517781ff-9bdc-450d-9283-fc5f62262d35")
-		)
-		(pin "3"
-			(uuid "c0b9471b-22b3-43ec-8172-c915d2e82d49")
-		)
-		(pin "4"
-			(uuid "c2a3592b-63a2-4053-8acc-8580b3bc4bf9")
-		)
-		(instances
-			(project "WeatherStation"
-				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:OLED")
 		(at 240.03 153.035 270)
 		(unit 1)
@@ -7292,71 +7031,107 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.865 157.48 0)
+		(lib_id "SAMPI:BT3")
+		(at 198.755 154.305 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d94a27f4-8670-474d-b2bc-f93fc8cf9da3")
-		(property "Reference" "#PWR061"
-			(at 189.865 163.83 0)
+		(fields_autoplaced yes)
+		(uuid "db097e9b-2a38-47a7-b9ad-5f3afc0afa76")
+		(property "Reference" "BT1"
+			(at 196.85 153.0349 90)
 			(effects
 				(font
-					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 189.865 161.29 0)
+		(property "Value" "RESET"
+			(at 196.85 155.575 90)
 			(effects
 				(font
-					(face "Consolas")
 					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.865 157.48 0)
+		(property "Footprint" "SAMPI:SW_SMD2_6.0x3.5"
+			(at 198.755 154.305 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 157.48 0)
+			(at 198.755 154.305 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.865 157.48 0)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 198.755 154.305 0)
 			(effects
 				(font
-					(face "Consolas")
-					(size 1.016 1.016)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Panasonic"
+			(at 198.755 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "EVQ-PE105K"
+			(at 198.755 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.022"
+			(at 198.755 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
+			(at 198.755 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a421dc5c-477d-4012-9a22-c63ea2a988b7")
+			(uuid "32231266-19a2-4123-889d-d096c2e01459")
+		)
+		(pin "2"
+			(uuid "f37dc490-c91e-4454-8544-42ac6837fc94")
 		)
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR061")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -7758,77 +7533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.265 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9f4beaf-e160-4f31-8723-e0b4fab7eb66")
-		(property "Reference" "#PWR070"
-			(at 215.265 163.83 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.265 161.29 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.265 157.48 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.265 157.48 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.265 157.48 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca006c7f-ad93-48bb-8079-3f2f51238933")
-		)
-		(instances
-			(project "WeatherStation"
-				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMPI:RES")
 		(at 216.535 142.24 90)
 		(mirror x)
@@ -7849,7 +7553,7 @@
 			)
 		)
 		(property "Value" "10K, 1%"
-			(at 224.79 144.78 90)
+			(at 224.155 144.78 90)
 			(effects
 				(font
 					(face "Consolas")

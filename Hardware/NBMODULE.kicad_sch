@@ -8804,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:U.FL"
 			(at 217.17 58.42 0)
 			(effects
 				(font
@@ -12533,7 +12533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:CAP_ELEC-6.6x6.6-DIA6.3"
 			(at 180.34 109.855 0)
 			(effects
 				(font
@@ -12890,7 +12890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" " Samsung"
+		(property "MFT" "Samsung"
 			(at 271.145 53.975 0)
 			(effects
 				(font
@@ -13274,7 +13274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SCAP1320"
 			(at 226.06 114.935 0)
 			(effects
 				(font
@@ -14341,7 +14341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:SCAP1320"
 			(at 226.06 107.315 0)
 			(effects
 				(font
@@ -16558,7 +16558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:AH3G.303"
 			(at 196.215 51.435 0)
 			(effects
 				(font
