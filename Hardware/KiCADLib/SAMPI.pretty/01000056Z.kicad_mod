@@ -1,0 +1,250 @@
+(footprint "01000056Z"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c561825e-ee7f-4ccd-bfa6-706b067bf425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01000056Z"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "965187a8-5d68-40fc-8615-1145f219d709")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd4e628-6911-4d6d-9bdb-aecf2bdf5366")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "504ef4d5-0ac4-4a7e-92ea-45e19fcea90a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7130504-2c06-4574-b835-f54f5b4acb96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -2.6)
+		(end -4 2.6)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f3fdb0d-dc20-49b8-9d1e-0e8ab46b359a")
+	)
+	(fp_line
+		(start -4 -0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a02a2d3-e695-4a0f-a31a-169871d8fa02")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 4 0.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc39d67d-d17d-40ef-a8cb-4732f59e32a7")
+	)
+	(fp_line
+		(start 4 -2.6)
+		(end 4 2.6)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1946b264-2158-4c87-a748-f30b0e1e9403")
+	)
+	(fp_rect
+		(start -13.2 -2.6)
+		(end 13.2 2.6)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b053c88a-7272-406d-883a-242aec503889")
+	)
+	(fp_arc
+		(start -0.5 -0.5)
+		(mid 0 0)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5df5e8e5-c3de-41a2-b7b1-c05c56f74b11")
+	)
+	(fp_arc
+		(start 0.5 0.5)
+		(mid 0 0)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b796a182-21b1-4c83-aaa1-aa35f329dc54")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d302cf0e-c46f-4dbb-b172-78b67b860abf")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da71edcc-c8ab-4874-a2a6-346c8840b9d1")
+	)
+	(fp_rect
+		(start -13.6 -3)
+		(end 13.6 3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "692dfc07-b3e2-4d53-b693-f9aaa3b46608")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28f56a2-1c62-4c2c-ab0d-87a133771505")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.25 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92aaea8a-d8dc-4e17-974f-175fc32b9be4")
+	)
+	(pad "1" thru_hole circle
+		(at -5.65 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93092e5e-38a3-4374-b75b-293fdac6a4ad")
+	)
+	(pad "2" thru_hole circle
+		(at 5.65 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3b6f3a8-e8da-4049-b4b5-acb3d58c0238")
+	)
+	(pad "2" thru_hole circle
+		(at 10.25 0)
+		(size 2.2 2.2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c799b73d-fcb0-4269-a246-bdffaf4e8e00")
+	)
+	(model "${SAMPI_3DMODEL_DIR}/100056.stp"
+		(offset
+			(xyz -8 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/100056.stp"
+		(offset
+			(xyz 8 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/GlassFuse5x20.STEP"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

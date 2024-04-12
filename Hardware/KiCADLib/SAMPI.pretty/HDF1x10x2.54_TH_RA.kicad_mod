@@ -1,0 +1,238 @@
+(footprint "HDF1x10x2.54_TH_RA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d597794-ca42-4e58-9f3c-720e9f136efd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HDF1x10x2.54_TH_RA"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a4859c-03de-4ada-a185-3cacc91b7073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66058122-6f29-4af1-bff4-9670b4c82457")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d160e9b2-672b-4146-bf61-218e7318ca2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1130c53e-5091-4ae2-9930-3c813b09b225")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.95 -10.1)
+		(end 12.95 -1.6)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "41dcaaff-c1ba-4858-a903-36b9cb0f835f")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07e16ebe-0016-40c6-a4f9-32549334b93c")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "35f367c4-a853-4aaf-b0f9-6e0161a08ed7")
+	)
+	(fp_rect
+		(start -13.35 -10.5)
+		(end 13.35 1.2)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "438bd9ed-d927-47b4-941b-81fd7543a1fe")
+	)
+	(fp_rect
+		(start -12.95 -10.1)
+		(end 12.95 -3.7)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "27e5f406-d8c4-4111-a7b4-fed8b35bf1fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3554bd3-25ee-4514-97ef-2efa877e9a46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -11.43 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "afb58365-1439-4932-aecc-75c8de7d46f4")
+	)
+	(pad "2" thru_hole circle
+		(at -8.89 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "438b92d6-b6e7-4727-a95c-f0977acb7bd8")
+	)
+	(pad "3" thru_hole circle
+		(at -6.35 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5efdd10-9773-4ff9-92f6-d60824dd0ba9")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6830e3c-a46d-410d-96a4-19d96d301f59")
+	)
+	(pad "5" thru_hole circle
+		(at -1.27 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06049c98-10be-4d3f-a13a-3e05f2f10dbb")
+	)
+	(pad "6" thru_hole circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa705eae-9237-4466-a3e9-83c398e7e108")
+	)
+	(pad "7" thru_hole circle
+		(at 3.81 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c435fbe-8a84-4430-b8d8-981e22aa199f")
+	)
+	(pad "8" thru_hole circle
+		(at 6.35 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71999c48-8bc6-49d1-88fc-e8e359126ca0")
+	)
+	(pad "9" thru_hole circle
+		(at 8.89 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7325474e-18aa-43ef-abe5-d694d082d32b")
+	)
+	(pad "10" thru_hole circle
+		(at 11.43 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bc487e7-26e8-4aa8-80da-842c9293d147")
+	)
+	(model "${SAMPI_3DMODEL_DIR}/HDM-TH-1x10x2.54R.STEP"
+		(offset
+			(xyz 12.95 1.6 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "${SAMPI_3DMODEL_DIR}/HDF-TH-1x10x2.54R.STEP"
+		(hide yes)
+		(offset
+			(xyz -11.75 -0.28 -2.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

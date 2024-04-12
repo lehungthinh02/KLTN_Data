@@ -1,0 +1,186 @@
+(footprint "LAMP_6.35MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d678bbe-839d-4906-a68a-cfec6ad5899e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LAMP_6.35MM"
+		(at 0 -5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bef3cd7a-b52f-45d7-ae1d-165d62bff0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87751b50-5a5d-4df2-bd8a-23a5ad7befc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0dbcac6-ac50-43a4-93a2-ca743430b82b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fbe6344-b8b0-471e-b9cd-da456bad3d83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.8 -1.6)
+		(end 5.8 1.6)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "47a6f7c9-552d-41d2-a3e2-204ffbae7e8d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3f8771f4-e18a-4c41-938f-6a6a4a06f3aa")
+	)
+	(fp_poly
+		(pts
+			(xy -5.8 -1.6) (xy -5.3 -1.6) (xy -5.5 -0.8) (xy -5.5 0.7) (xy -5.4 1.2) (xy -5.3 1.6) (xy -5.8 1.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "501b67b1-1ed4-4409-a52c-ee470c600d25")
+	)
+	(fp_poly
+		(pts
+			(xy 5.8 1.6) (xy 5.3 1.6) (xy 5.5 0.8) (xy 5.5 -0.7) (xy 5.4 -1.2) (xy 5.3 -1.6) (xy 5.8 -1.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "786ef498-07fa-4cc2-b55d-dc6a13c1d740")
+	)
+	(fp_line
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d59a8391-af37-449f-8d9c-1c7193f5e3ee")
+	)
+	(fp_line
+		(start 0.1 -0.1)
+		(end -0.1 0.1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f7fb0817-b1e7-441f-bf00-42b2c2ee420c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.4 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "05a40028-e79d-451d-9dd4-39185f5cb9d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3f889ce-2636-4e1d-a2bb-ff24bfe49d32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.175 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "96b04fd6-5eb0-4c71-b457-71c5f12ed639")
+	)
+	(pad "2" thru_hole circle
+		(at 3.175 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51a11044-3bf0-44c4-8af2-cf43ce6b4907")
+	)
+	(model "${SAMPI_3DMODEL_DIR}/HalogenLamp-6.35.step"
+		(offset
+			(xyz 0 0 -8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
+)

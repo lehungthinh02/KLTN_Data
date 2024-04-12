@@ -688,6 +688,7 @@
 		(at 91.44 114.3 0)
 		(effects
 			(font
+				(face "Consolas")
 				(size 1.016 1.016)
 			)
 		)
@@ -742,6 +743,7 @@
 		(at 90.805 111.125 0)
 		(effects
 			(font
+				(face "Consolas")
 				(size 1.016 1.016)
 			)
 		)

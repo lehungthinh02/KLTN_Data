@@ -1,0 +1,236 @@
+(footprint "ToroidCoil-3119-13-S1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ea7c576-7f4e-461d-a393-77638b5ace7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ToroidCoil-3119-13-S1"
+		(at 0 4.7 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "3aa0e84b-9168-436a-9a95-9fd4f27558bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b879741-7cf1-4202-99fd-449eb9d2649e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ba5bd9-8e83-4ab8-b926-fa90f614b1ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bee6c34-9587-4ce6-a25a-cb3a7513448a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17 5)
+		(end -17 21)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74849d7b-9269-459f-8daa-62653a907140")
+	)
+	(fp_line
+		(start -17 5)
+		(end -1.5 5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e4d5775-213d-4687-adee-e203aafe2763")
+	)
+	(fp_line
+		(start -17 21)
+		(end -1.5 21)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3d10611-e73e-48fa-8294-eee86a91eddf")
+	)
+	(fp_line
+		(start 17 5)
+		(end 1.5 5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "daf79d21-1001-45ff-a5a0-302cfb77d202")
+	)
+	(fp_line
+		(start 17 21)
+		(end 1.5 21)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99dd5b01-cec1-4d0f-924c-346ec12a05a0")
+	)
+	(fp_line
+		(start 17 21)
+		(end 17 5)
+		(stroke
+			(width 0.154)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13c055a8-3d91-420d-b5e7-a25826eae2fa")
+	)
+	(fp_line
+		(start -1 12)
+		(end 1 14)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "94955ed5-2668-41b5-861d-fbb563d7ee32")
+	)
+	(fp_line
+		(start -1 14)
+		(end 1 12)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e93dc364-8294-4eea-8f55-8d56a3c1b4d6")
+	)
+	(fp_rect
+		(start -18.3 3.7)
+		(end 18.3 22.3)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "eba53a8b-7045-4f11-b64b-57d384519fdc")
+	)
+	(fp_rect
+		(start -10 5)
+		(end -1.5 21)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bd01d94c-9f76-413e-ab0b-1c0d57884915")
+	)
+	(fp_rect
+		(start -10 5)
+		(end 10 21)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "71d8f500-45a0-40d4-a401-65892fd19cae")
+	)
+	(fp_rect
+		(start -1.5 6.5)
+		(end 1.5 19.5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "53311c58-ad82-4722-9f97-31077c6614eb")
+	)
+	(fp_rect
+		(start 1.5 5)
+		(end 10 21)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dea8764b-59a4-454b-8bb6-125e6ab245db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea16584f-a139-4bcf-83c4-e5a4dbd362dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 5)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "194a9ac4-d655-4f9f-88f8-8e632c0e2cdc")
+	)
+	(pad "2" thru_hole circle
+		(at 0 21)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44164b70-b225-4735-92cf-30634f096457")
+	)
+)

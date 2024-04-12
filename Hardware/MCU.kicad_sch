@@ -1978,12 +1978,12 @@
 				)
 			)
 		)
-		(symbol "SAMPI:XTAL-2P"
+		(symbol "SAMPI:XTAL-4P"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "X"
+			(property "Reference" "U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2029,10 +2029,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "XTAL-2P_0_1"
+			(symbol "XTAL-4P_0_1"
 				(polyline
 					(pts
-						(xy 0 -4.445) (xy 0 -5.715)
+						(xy 6.35 -6.35) (xy 8.89 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -2044,7 +2044,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -4.445) (xy 2.54 -5.715)
+						(xy 6.35 -4.445) (xy 6.35 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 8.89 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -4.445) (xy 8.89 -5.715)
 					)
 					(stroke
 						(width 0)
@@ -2055,10 +2079,10 @@
 					)
 				)
 			)
-			(symbol "XTAL-2P_1_1"
+			(symbol "XTAL-4P_1_1"
 				(rectangle
-					(start 0.635 -4.445)
-					(end 1.905 -5.715)
+					(start 6.985 -4.445)
+					(end 8.255 -5.715)
 					(stroke
 						(width 0)
 						(type default)
@@ -2068,7 +2092,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 0)
+					(at 3.81 -5.08 0)
 					(length 2.54)
 					(name "X1"
 						(effects
@@ -2086,7 +2110,43 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 7.62 -8.89 90)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 270)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
 					(length 2.54)
 					(name "X2"
 						(effects
@@ -2095,7 +2155,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3677,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "088528d3-49a0-48f3-a59f-8d9cba004ae6")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 220.98 83.1849 90)
 			(effects
 				(font
@@ -3762,6 +3822,16 @@
 			(at 216.535 85.725 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 216.535 85.725 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3776,7 +3846,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3864,12 +3934,23 @@
 			(at 212.725 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "PR20B05VBDN"
+			(at 212.725 67.31 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 212.725 67.31 0)
 			(effects
 				(font
@@ -3918,6 +3999,134 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMPI:XTAL-4P")
+		(at 154.94 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "133475bd-f5ae-489b-b2b3-a6c3dec277a9")
+		(property "Reference" "X1"
+			(at 164.465 145.415 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "32.768kHz"
+			(at 167.005 144.145 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "SAMPI:SMD4-7015"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CRYSTAL 32.7680KHZ 9PF SMD"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "EPSON"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNP" "MC-146 32.7680KA-AC0: ROHS"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.154"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock Link" "https://www.thegioiic.com/thach-anh-32-768khz-mc-146-crystal-7015-4-chan"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ec904908-8bc6-460a-92b3-2fef05c90762")
+		)
+		(pin "4"
+			(uuid "7e0e1165-6b5b-4ba0-a014-c6b6ab42773e")
+		)
+		(pin "1"
+			(uuid "e0c4d2c0-25c2-43a8-97c2-de71599aea24")
+		)
+		(pin "2"
+			(uuid "ffcceba0-ed23-445a-93fd-ee5825a88da5")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 157.48 0)
 		(unit 1)
@@ -3926,7 +4135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "154ce227-2d2c-4287-9b22-29cf6302fe51")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 168.91 163.83 0)
 			(effects
 				(font
@@ -3982,7 +4191,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4157,6 +4366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 210.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbe6edd7-76f1-4471-9981-05171699b8ff")
 		)
@@ -4182,7 +4400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "434db401-a2c0-45e0-b965-64ddee1cc636")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR054"
 			(at 146.05 163.83 0)
 			(effects
 				(font
@@ -4238,7 +4456,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR055")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44fb4209-b4b2-45e7-bde5-40e5ec22b714")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 182.88 163.83 0)
 			(effects
 				(font
@@ -4309,7 +4527,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4543,7 @@
 		(dnp no)
 		(uuid "478600fa-a14b-493e-b9c3-9cef371e4b65")
 		(property "Reference" "U6"
-			(at 128.27 142.24 0)
+			(at 128.27 142.875 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -4397,12 +4615,23 @@
 			(at 123.19 146.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "SST25VF016B-50-4C-S2AF"
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 123.19 146.05 0)
 			(effects
 				(font
@@ -4446,6 +4675,77 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "548d38ad-44a2-4cc0-97f8-544b39211f7d")
+		(property "Reference" "#PWR057"
+			(at 162.56 158.75 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 156.21 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34660453-257d-44d5-96fc-cece2657a924")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 182.88 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4453,7 +4753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c5a6834-d389-4a25-aff4-9085e7d72a60")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -4509,7 +4809,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4684,6 +4984,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25de00c4-8687-45fe-aaf5-df3ffa3177be")
 		)
@@ -4708,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "690ad6f1-88a3-48e8-b4bf-fd710f5d39d8")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 219.075 143.51 0)
 			(effects
 				(font
@@ -4765,7 +5074,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4865,6 +5174,15 @@
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 171.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4969,6 +5287,7 @@
 			(at 222.25 153.0349 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -4979,6 +5298,7 @@
 			(at 222.25 155.575 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -4988,7 +5308,8 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -4997,7 +5318,8 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -5006,7 +5328,8 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -5015,7 +5338,8 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -5024,7 +5348,8 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -5033,12 +5358,23 @@
 			(at 224.155 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
+			(at 224.155 154.305 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 224.155 154.305 0)
 			(effects
 				(font
@@ -5160,6 +5496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d274729b-0697-497b-8e63-48b0ab9a5b9d")
 		)
@@ -5255,7 +5600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f5b7fe-1e16-40c0-b47b-02aa30384bd4")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR076"
 			(at 229.235 67.31 0)
 			(effects
 				(font
@@ -5311,7 +5656,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR077")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "820c2226-18b1-4b1d-9c59-74c6344c1691")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 173.99 134.62 0)
 			(effects
 				(font
@@ -5382,7 +5727,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a4e6b3c-c8c5-4c52-a691-11c7df298535")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 156.21 163.83 0)
 			(effects
 				(font
@@ -5453,7 +5798,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e55c3cf-ce13-4853-aa3e-10a326ee2565")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 197.485 142.24 90)
 			(effects
 				(font
@@ -5552,6 +5897,16 @@
 			(at 191.135 142.24 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 191.135 142.24 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5566,7 +5921,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5669,6 +6024,15 @@
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 176.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5786,6 +6150,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 213.995 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c2e9793-4b01-4910-aba1-9ed708edb19a")
 		)
@@ -5811,7 +6184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9701be71-d728-4779-842f-66158efddb87")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR073"
 			(at 219.71 104.14 0)
 			(effects
 				(font
@@ -5868,7 +6241,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6043,6 +6416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 185.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8a5f07d-7559-40ae-8eba-5636bd11e133")
 		)
@@ -6068,7 +6450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0bbed3b-b15f-4ad3-b9be-078eba07e919")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 238.76 144.78 90)
 			(effects
 				(font
@@ -6151,6 +6533,16 @@
 			(at 232.41 144.78 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 232.41 144.78 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6165,7 +6557,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6181,7 +6573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a49b5f66-d3a6-4d89-8eba-db15843810cb")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 208.28 83.1849 90)
 			(effects
 				(font
@@ -6266,6 +6658,16 @@
 			(at 203.835 85.725 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 203.835 85.725 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6280,7 +6682,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6384,6 +6786,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7161332-bacb-4d9e-9673-bc7169201854")
 		)
@@ -6409,7 +6820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac972c98-05f8-4206-82cc-27a4bf5da4ee")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 168.91 115.57 0)
 			(effects
 				(font
@@ -6492,6 +6903,16 @@
 			(at 170.18 116.84 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 170.18 116.84 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6506,7 +6927,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6594,7 +7015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b518c891-2ee6-4fb4-90f4-5467b8749c7b")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 219.075 84.455 0)
 			(effects
 				(font
@@ -6651,7 +7072,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6751,6 +7172,15 @@
 				(font
 					(face "Consolas")
 					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 194.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6855,12 +7285,23 @@
 			(at 240.03 153.035 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "MNP" "B1911UD--20D001014U1930"
+			(at 240.03 153.035 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 240.03 153.035 0)
 			(effects
 				(font
@@ -7044,6 +7485,7 @@
 			(at 196.85 153.0349 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
@@ -7054,6 +7496,7 @@
 			(at 196.85 155.575 90)
 			(effects
 				(font
+					(face "Consolas")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -7063,7 +7506,8 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -7072,7 +7516,8 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -7081,7 +7526,8 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -7090,7 +7536,8 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -7099,7 +7546,8 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -7108,12 +7556,23 @@
 			(at 198.755 154.305 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(face "Consolas")
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "Stock Link" "https://www.thegioiic.com/nut-nhan-3x6mm-cao-5mm-2-chan-smd-dau-trang"
+			(at 198.755 154.305 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 198.755 154.305 0)
 			(effects
 				(font
@@ -7165,7 +7624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SAMPI:TQFP48-7x7_MCHP"
 			(at 142.875 130.81 0)
 			(effects
 				(font
@@ -7227,6 +7686,16 @@
 			)
 		)
 		(property "MFT" "Microchip"
+			(at 135.255 93.98 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
 			(at 135.255 93.98 0)
 			(effects
 				(font
@@ -7397,7 +7866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3889cdb-c5ce-493e-b8dc-be9b7167d2f9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 219.075 163.83 0)
 			(effects
 				(font
@@ -7453,7 +7922,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e529798f-1008-46ed-93c3-ac206782136d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 146.05 151.13 0)
 			(effects
 				(font
@@ -7526,7 +7995,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7542,7 +8011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb1c5e77-06da-491d-8dda-889c1183cd13")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 222.885 142.24 90)
 			(effects
 				(font
@@ -7625,6 +8094,16 @@
 			(at 216.535 142.24 0)
 			(effects
 				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" ""
+			(at 216.535 142.24 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7639,7 +8118,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7655,7 +8134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eded2542-d88e-49c3-bfe1-9fc3c42635bf")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR075"
 			(at 219.075 64.77 0)
 			(effects
 				(font
@@ -7712,34 +8191,34 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR076")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SAMPI:XTAL-2P")
-		(at 161.29 143.51 0)
+		(lib_id "power:GND")
+		(at 162.56 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efc57a36-ab1c-48e0-9f95-ca98407bd2c5")
-		(property "Reference" "X1"
-			(at 162.56 143.51 0)
+		(uuid "f2ca19e8-8fa3-49c1-ad31-d9e2c91831a1")
+		(property "Reference" "#PWR056"
+			(at 162.56 138.43 0)
 			(effects
 				(font
 					(face "Consolas")
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "32.768kHz"
-			(at 162.56 146.05 0)
+		(property "Value" "GND"
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7747,8 +8226,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMPI:SMD4-7015"
-			(at 161.29 143.51 0)
+		(property "Footprint" ""
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7758,7 +8237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 143.51 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7767,8 +8246,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRYSTAL 32.7680KHZ 9PF SMD"
-			(at 161.29 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(face "Consolas")
@@ -7776,55 +8255,14 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "Price" "0.154"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock Link" "https://www.thegioiic.com/thach-anh-32-768khz-mc-146-crystal-7015-4-chan"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(face "Consolas")
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "EPSON"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MNP" "MC-146 32.7680KA-AC0: ROHS"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a037e594-4084-4354-be41-3f0225f5908c")
 		)
 		(pin "1"
-			(uuid "a5445ea0-f313-464b-bcc4-d78650800a3e")
+			(uuid "ddd28f56-355a-4210-966c-f62f83848424")
 		)
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "X1")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7928,6 +8366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5aa5d61-ed32-416b-85c0-f58ce7f6d040")
 		)
@@ -7952,7 +8399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5cd3c24-99bc-40a4-b4be-1dd039367a30")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 137.16 163.83 0)
 			(effects
 				(font
@@ -8008,7 +8455,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8023,7 +8470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa2e0fa4-8dd1-4101-9d5c-0580741787cd")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR077"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -8079,7 +8526,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR078")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -8184,6 +8631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Check" ""
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4db4088b-76f0-425c-a1f4-14baa68fdfbc")
 		)
@@ -8208,7 +8664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fef23247-c2e3-4b08-a514-00a2398745f1")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -8264,7 +8720,7 @@
 		(instances
 			(project "WeatherStation"
 				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc/c1b57228-8a74-47e2-83ea-5794be8cbd31"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
