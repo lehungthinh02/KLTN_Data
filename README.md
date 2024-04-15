@@ -1,17 +1,8 @@
 # Bảng dữ liệu thiết kế
 
-Thông tin chi tiết về các cảm biến và module được sử dụng trong thiết kế:
+Thông tin chi tiết về cac module được sử dụng trong thiết kế:
 
-## Cảm biến
 
-| Cảm biến                                  | Điện áp nguồn | Dòng điện   | Giao tiếp |
-|-------------------------------------------|---------------|-------------|-----------|
-| Nhiệt độ-độ ẩm (HPP845E034R5)             | 3.8V          | 0.65 mA     | I2C       |
-| Áp suất (BM1383AGLV)                      | 3.3V          | -           | I2C       |
-| Cảm biến bụi (GP2Y1010AU0F)               | 5V            | 11 mA       | Analog    |
-| Cảm biến hướng gió (AS5600)               | 3.3V          | 1.5 mA      | I2C       |
-| Cảm biến tốc độ gió (Hall A3144)          | 4.5V-24V      | -           | Analog    |
-| Cảm biến từ trường đo lượng mưa (HMC5883L)| 2.16V-3.6V    | 100μA       | I2C       |
 
 ## Module (NB-IOT ME310G1)
 
