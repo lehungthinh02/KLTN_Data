@@ -1,6 +1,6 @@
 # Bảng dữ liệu thiết kế
 
-Thông tin chi tiết về cac module được sử dụng trong thiết kế:
+Thông tin chi tiết về các module được sử dụng trong thiết kế:
 
 
 
